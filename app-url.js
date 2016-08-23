@@ -1,5 +1,5 @@
 var HEADERS = {};
-var API_ENGINE_URL = location.origin;
+var API_ENGINE_URL = window.__env.apiUrl;
 var headerss = {Authorization : "dfsdfsdfsfs"};
 var APP_URL = {
     // authenticate
