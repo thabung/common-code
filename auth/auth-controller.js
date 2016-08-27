@@ -8,7 +8,7 @@ mainApp.controller('authController', ['$scope', 'AuthFactory', '$rootScope', '$l
                 } else {
 
 
-                    $location.path(window.__env.landingState);
+                    $state.go(window.__env.landingState);
                 }
                 
             });
