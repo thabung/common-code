@@ -1,4 +1,4 @@
-mainApp.controller('authController', ['$scope', 'AuthFactory', '$rootScope', '$location', function ($scope, Auth, $rootScope, $location) {
+mainApp.controller('authController', ['$scope', 'AuthFactory', '$rootScope', '$location','$state', function ($scope, Auth, $rootScope, $location,$state) {
     $scope.loginData = {}
         $scope.login = function () {
             
