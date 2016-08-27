@@ -7,13 +7,13 @@ var APP_URL = {
     forgot_password:API_ENGINE_URL,
     //user
     signup:"",
-    get_user:"/api/users/:id",
-    update_user:"/api/user",
-    update_password:"/api/change-password",
-    activate_account:"/api/activate-account",
-    profile_avatars:"/api/profile-avatars",
-    update_profile_pic:"/api/profile-pic",
-    send_forgot_password_link:"/api/forgot-password",
+    get_user:API_ENGINE_URL +"/api/users/:id",
+    update_user:API_ENGINE_URL +"/api/user",
+    update_password:API_ENGINE_URL +"/api/change-password",
+    activate_account:API_ENGINE_URL +"/api/activate-account",
+    profile_avatars:API_ENGINE_URL +"/api/profile-avatars",
+    update_profile_pic:API_ENGINE_URL +"/api/profile-pic",
+    send_forgot_password_link:API_ENGINE_URL +"/api/forgot-password",
     reset_password:"/api/reset-password",
     // expense
     add_expense:API_ENGINE_URL + "/api/expense",
@@ -50,3 +50,4 @@ var APP_URL = {
     
     
 };
+
