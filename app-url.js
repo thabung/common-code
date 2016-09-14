@@ -31,6 +31,8 @@ var APP_URL = {
     // room
     rooms:API_ENGINE_URL + "/api/rooms",
     delete_room:API_ENGINE_URL + "/api/rooms/:id",
+    update_room:API_ENGINE_URL + "/api/rooms/:id",
+
     get_room:API_ENGINE_URL + "/api/rooms/:id",
 
 
