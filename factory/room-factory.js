@@ -4,6 +4,7 @@ mainApp.factory('RoomFactory', ['$resource',
         return $resource(APP_URL.rooms,
             {},
             {
+		update: {method: 'PUT',url:APP_URL.update_room,params:{id:"@id"}},
                 getList: {method: 'GET', isArray: true},
                 get: {method: 'GET',url:APP_URL.get_room,params:{id:"@id"}},
                 deleteRoom: {method: 'DELETE',url:APP_URL.delete_room,params:{id:"@id"}},
