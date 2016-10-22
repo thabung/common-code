@@ -15,7 +15,8 @@ mainApp.factory('UserFactory', ['$resource',
                 profileAvatars:{method:'GET',url:APP_URL.profile_avatars,params:{},isArray:true},
                 updateProfilePic:{method:'PUT',url:APP_URL.update_profile_pic,params:{}},
                 sendResetPasswordLink:{method:"POST",url:APP_URL.send_forgot_password_link},
-                resetPassword:{method:"POST",url:APP_URL.reset_password}
+                resetPassword:{method:"POST",url:APP_URL.reset_password},
+		userSocialNetwork:{method:"POST", url:APP_URL.auth_social}
 
             });
     }]);

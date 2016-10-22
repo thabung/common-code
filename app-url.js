@@ -47,6 +47,7 @@ var APP_URL = {
     create_user:API_ENGINE_URL + "/api/users",
     // friendlist
     friend_list:API_ENGINE_URL + "/api/friends/:id"
+    auth_social:API_ENGINE_URL + "/api/authenticate-social"
 
 
     
